@@ -1,0 +1,649 @@
+:root {
+      --color1:#78A083;
+      --color2:#5B8867;
+      --editor-button:#4c4c4c;
+    }
+    * {
+        scrollbar-color: var(--color1) #222;
+    }
+    select[name=setCategory] {
+         background-color: #000;
+    }
+    .subHead td {
+         background-color: var(--color2);
+         border-bottom: 1px solid #999;
+         border-top: 1px solid #fff;
+    }
+    .widgetContainer .evtDate {
+         color: #fff;
+         background-color: var(--color2);
+    }
+    .cal a {
+  	    color: #fff;
+	}
+    td[style="background-color:#ffc;"] {
+         background-color: var(--color2) !important;
+    }
+    td.calendarEmpty {
+         background-color: #333 !important;
+    }
+    td[style="background-color:#fff;"] {
+         background-color: #50727b !important;
+    }
+    td[style="background-color:#eee;"] {
+         background-color: #344955 !important;
+    }
+    /* Alternate colors
+    .cal a {
+  	    color: #444;
+	}
+    td[style="background-color:#ffc;"] {
+         background-color: #50727b !important;
+    }
+    td.calendarEmpty {
+         background-color: #344955 !important;
+    }
+    td[style="background-color:#fff;"] {
+         background-color: var(--color2) !important;
+    }
+    td[style="background-color:#eee;"] {
+         background-color: #808080 !important;
+    }
+    */
+    #pgControlsTy label {
+         color: #fff;
+    }
+    #topNav, 
+    #switchClass, 
+    #topNav ul, 
+    #topNav-mobile, 
+    #menu-mobile div, 
+    .preheadernav, 
+    footer {
+         background-color: var(--color2);
+    }
+    div.preheadernav {
+   	    background-color: var(--color2) !important;
+    }
+    select, 
+    .line {
+         background-color: #100f0f !important;
+    }
+    a, 
+    .ui-widget-content a {
+        color: var(--color1);
+    }
+    .ui-state-active a {
+        color: var(--color1) !important;
+    }
+    table.sortable td {
+        color: var(--color1);
+    }
+    ul.topTextLinks, 
+    .alphaBrowse a.sel{
+        background-color: var(--color2);
+    }
+    i.fa,
+    a i.fa, 
+    a i.fas, 
+    a i.fa-solid {
+        color: var(--color1);
+    }
+    input[type=”submit”], 
+    input[type=”reset”], 
+    input[type=”button”], 
+    button {
+        background-color: var(--color2) !important;
+        text-transform: uppercase;
+        padding: 6px 8px;
+    }
+    .alphaBrowse, 
+    .input, 
+    #resourceFile, 
+    .topTextlinks {
+        background-color: var(--color2);
+    }
+    .ui-state-default a, 
+    .ui-state-default a:link, 
+    .ui-state-default a:visited, 
+    a.ui-button, 
+    a:link.ui-button, 
+    a:visited.ui-button, 
+    .ui-button {
+        color: var(--color1);
+    }
+    wid button, 
+    #loginForm input[type=submit] {
+        color: #ffffff;
+        background-color: var(--color2);
+        border: none !important;
+    }
+    div.nivo-controlNav {
+        background-color:#f0f0ff00
+    }
+    #mm-0, 
+    .pagecontent, 
+    .row, 
+    .widgetItem, 
+    .wid, 
+    #wid164284, 
+    .contentBox  {
+        background-color: #000 !important;
+    }
+    /* Select, input could be other colors. */
+    div, 
+    select {
+        color: #fff;
+    }
+    div.footerTemplate.footerTemplate2.clearfix {
+        background-color: var(--color2);
+    }
+    .wid h3, 
+    .widgetContainer .tabContainer.ui-tabs .ui-tabs-nav {
+        background-color: var(--color2);
+    }
+    .fa-sticky-note {
+        color: var(--color1);
+    }
+    #logo img {
+        content:url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/SCA-logo%2Bname24-white.png);
+       	width:500px;
+    }
+    .ui-accordion .ui-accordion-header {
+        background-color: #595252 !important; /* Add some hover thing like they did. */
+        color: #fff;
+    }
+    body {
+        background-color: #000000 !important;
+        accent-color: #038026;
+    }
+    table.sortable td {
+        color: #ffffff;
+    }
+    .fa-sticky-note {
+        color: #044104;
+    }
+    .sortable > tbody > tr > td {
+        border-top-color:#555;
+    }
+    table.sortable>tbody>tr:nth-child(odd):hover, 
+    table.sortable>tbody>tr:nth-child(even):hover {
+        background-color: #000;
+    }
+    table.sortable>tbody>tr:nth-child(odd), 
+    tr.odd td, 
+    tr.odd th {
+        background-color: #191919;
+    }
+    table.sortable>tbody>tr:nth-child(even), 
+    tr.even td, 
+    tr.even th {
+        background-color: #202020;
+    }
+    .sortable>tbody>tr>td:last-child {
+        border-right: 1px solid #404040;
+    }
+    .sortable>thead>tr>th {
+        background-color: #242424;
+        border-color: #444;
+    }
+    input[step=".01"] {
+        appearance: textfield;
+        text-align:right;
+        padding-right:8px !important;
+    }
+    .footer {
+        background-color: var(--color2) !important;
+    } 
+    .footerTemplate2 .footerTemplateHost,
+    #loginBar {
+        display:none;
+    }
+    #footer .footerTemplate {
+        padding-bottom:20px;
+    }
+    img[src="/sysfiles/site_uploads/footer/logoimg_footer3724.png"] {
+        content:url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/SCA-logo%2Bname24-white.png);
+        height:60px;
+    }
+    .ui-widget-content a.defColor, 
+    a.defColor, 
+    a.defColor i, 
+    .hcIcon {
+        color: var(--color1) !important;
+    }   	 
+    body {
+        font-size: 10pt;
+        margin: 0 auto;
+        padding: 0;
+        color: #000;
+    }
+    #loginBox {
+        padding:0px!important;
+        border-radius:5px!important;
+    }
+    #loginBox, 
+    #loginBox a {
+        color: #fff;
+    }
+    #loginArrow {
+        filter:brightness(0.5);
+    }
+    .wid button {
+        background-color: var(--color2) !important;
+    }   
+    #pgControlsTray a, 
+    a.aBtn {
+        border: 1px solid #aaaaaa;
+        background-color: #080808;
+    }  
+    #pgControlsTray, #pgControlsTray a, a.aBtn {
+        color: var(--color1);
+    }
+    #mm-0,
+    .content, 
+    .clearfix,
+    h3, 
+    #setCategory, 
+    .topNav, 
+    publicHome {
+        background-color: #000;
+        color: #fff;
+    }
+    #logoblock {
+        /*background-color: #282828;*/
+        background-color:#000;
+    }
+    .subHead td {
+        background-color: #f3f3f3;
+        border-bottom: 1px solid #999;
+        border-top: 1px solid #fff;
+    }
+    .sortable .expandEpoch .fa-plus-square {
+        color: var(--color1);
+    }  
+    .error {
+        color: #f00 !important;
+    }
+    
+/* Begin text editor modifications */
+	/* BEGIN TEXT EDITOR SECTION 1: Buttons and features visible on the main part of the text editor */
+	.cke_button_icon {
+    	/* To change the icons from light mode to dark mode */
+    	filter: invert(1) brightness(2);
+	}
+	.cke_reset_all,
+	.cke_reset_all * {
+    	color: #fff;
+	}
+	.cke_top {
+    	/* banner which all of the buttons are on */
+    	border-bottom: 1px solid #727272;
+    	background: #565656;
+	}
+	a.cke_button,
+	.cke_toolgroup {
+    	background-color: #000;
+	}
+	a.cke_button_off:hover,
+	a.cke_button_off:focus,
+	a.cke_button_off:active,
+	.cke_combo_off a.cke_combo_button:hover {
+    	background: #646464;
+    	border-color:#565656;
+	}
+	a.cke_button_on,
+	.cke_combo_off a.cke_combo_button:active {
+    	background: #535353;
+	}
+	a.cke_button_on:hover,
+	a.cke_button_on:focus,
+	a.cke_button_on:active {
+    	background: #7a7a7a;
+	}
+    	/* Begin subsection for the four buttons along the bottom-left */
+	.cke_toolgroup {
+    	border-color: #727272;
+    	border-bottom-color: #9b9b9b;
+	}
+	.cke_combo_button {
+    	border-top: 1px solid #727272;
+    	border-bottom: 1px solid #9b9b9b;
+    	background: #000;
+	}
+    .cke_combo_arrow {
+        border-top-color: #fff;
+    }
+	.cke_combo_on a.cke_combo_button {
+    	background-color:#3e3e3e;
+    	border-top-color:#575757;
+	}
+	.cke_combo_on a.cke_combo_button:hover,
+	.cke_combo_on a.cke_combo_button:focus {
+    	background-color:#606060;
+    	border-top-color:#4a4a4a;
+	}
+	.cke_combo_text {
+    	color: #fff;
+    	text-shadow: 0 1px 0 #0008;
+	}
+    	/* End subsection for the four buttons along the bottom-left */
+	.cke_toolbar_separator {
+    	background-color: #808080;
+	}
+	.cke_button_arrow {
+    	/* This is for the little drop-down arrow on some of the buttons */
+    	border-top-color: #fff;
+	}    
+	/* END TEXT EDITOR SECTION 1*/
+    
+	/* BEGIN TEXT EDITOR SECTION 2: The bottom part */
+	body.cke_editable {
+    	/* The field where you type */
+    	background-color: #fff !important; 
+    	color: #000;
+	}
+	.cke_editable a {
+    	/* Necessary to make links look like a normal color */
+    	color: #0782c1;
+	}
+	.cke_bottom {
+    	/* Strip along the bottom */
+    	border-top: 1px solid #858585;
+    	background: #565656;
+	}
+	span a.cke_path_item,
+	span a.cke_path_empty {
+    	color: #fff;
+    	text-shadow: 0 1px 0 #0008;
+	}
+	.cke_path_item {
+    	border-right: 1px solid #aeaeae;
+	}
+	.cke_resizer {
+    	/* Triangle in the bottom-right corner of the editor */
+    	border-color: transparent #8c8c8c transparent transparent;
+	}
+	a.cke_path_item:hover,
+	a.cke_path_item:focus,
+	a.cke_path_item:active {
+    	background-color: #797979;
+    	color: #fff;
+    	text-shadow: 0 1px 0 #0008;
+	}
+	/* END TEXT EDITOR SECTION 2 */
+    
+	/* BEGIN TEXT EDITOR SECTION 3: The drop-down menus which are actually pop-up boxes */
+	.cke_panel {
+    	border: 1px solid #4a4a4a;
+    	border-bottom-color: #3a3a3a;
+	}
+	.cke_panel_block {
+    	background-color: #000;
+    	color:#fff;
+	}
+    	/* Begin subsection for four "select" buttons */
+	.cke_panel_block > h1 {
+    	background-color:#4a4a4a;
+    	color:#fff;
+    	border-bottom: 1px solid #e5e5e5;
+	}
+	.cke_panel_block ul li a {
+    	border-color:transparent;
+	}
+    .cke_panel_grouptitle {
+        text-shadow:0 1px 0 #000;
+    }
+	.cke_panel_listItem a:hover,
+    .cke_panel_listItem a:hover h3,
+	.cke_panel_listItem a:focus,
+    .cke_panel_listItem a:focus h3,
+	.cke_panel_listItem a:active {
+    	border-color: #6e6e6e;
+    	background-color: #2a2a2a;
+	}
+    .cke_panel_listItem.cke_selected a {
+        border: 1px inset #777;
+        background-color: var(--editor-button);
+    }
+	.cke_panel_listItem [title="Special Container"] div,
+	.cke_panel_listItem [title="Marker"] {
+    	color:#000 !important;
+	}
+    	/* End subsection for four "select" buttons */
+    
+    	/* Begin subsection for other drop-down boxes */
+    
+	.cke_menubutton_label {
+    	background-color: var(--editor-button);
+	}
+	a.cke_menubutton:hover,
+	a.cke_menubutton:focus,
+	a.cke_menubutton:active {
+    	background-color: #3b3b3b;
+	}
+	a.cke_menubutton:hover .cke_menubutton_label,
+	a.cke_menubutton:focus .cke_menubutton_label,
+	a.cke_menubutton:active .cke_menubutton_label {
+    	background-color: #6e6e6e;
+	}
+    .cke_menubutton:hover .cke_menubutton_icon, 
+    .cke_menubutton:focus .cke_menubutton_icon, 
+    .cke_menubutton:active .cke_menubutton_icon {
+        background-color: #d0d0d0;
+    }
+	.cke_menubutton_icon {
+    	background-color: #353535;
+        opacity: .20;
+	}
+	.cke_menubutton:hover,
+	.cke_menubutton:focus,
+	.cke_menubutton:active {
+    	background-color: #5b5b5b;
+	}
+	.cke_menuseparator {
+    	background-color: #7f7f7f;
+    	opacity: 1;
+	}
+	.cke_colorblock a {
+    	color:#fff;
+	}
+	a.cke_colorbox {
+    	border-color:transparent;
+	}
+	#cke_7_colorBox {
+    	background-color:#000;
+	}
+	a.cke_colorbox:hover,
+	a.cke_colorbox:focus,
+	a.cke_colorbox:active,
+    a.cke_colorauto:hover,
+	a.cke_colormore:hover,
+	a.cke_colorauto:focus,
+	a.cke_colormore:focus,
+	a.cke_colorauto:active,
+	a.cke_colormore:active{
+    	border: #666 1px solid;
+    	background-color: var(--editor-button);
+	}
+	a.cke_colorauto,
+	a.cke_colormore {
+    	border-color:#5b5b5b;
+	}
+    	/* End subsection for other drop-down boxes */
+	/* END TEXT EDITOR SECTION 3 */
+    
+	/* BEGIN TEXT EDITOR SECTION 4: Fixing the boxes like Special Characters and Images which we're too lazy to format */
+	input:not([type="submit"]):not([type="reset"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]):not([type="image"]):not([type=”text”]) {
+    	width:100%;
+	}
+	.cke_dialog_body {
+    	resize:none;
+	}
+	.cke_dialog_body .cke_resizer {
+    	display:none;
+	}
+	[aria-labelledby^="cke_dialog_title_"] * {
+    	/* For the image uploads, special characters, iframe, emojis, etc */
+    	color:#000;
+	}
+	.cke_reset_all.cke_1.cke_editor_description_dialog .cke_dialog.cke_browser_gecko.cke_ltr .cke_dialog_body .cke_dialog_contents .cke_dialog_contents_body .cke_dialog_ui_vbox_child .cke_dialog_ui_hbox .cke_dialog_ui_hbox_first .cke_dialog_ui_vbox input[type="text"] {
+    	/* This absolute monster of a selector is to set the text input widths in the image upload box, which are too wide by default. */
+    	width:50px;
+	}
+	form[enctype="multipart/form-data"] {
+    	background-color: #fff;
+    	border-bottom: 5px solid #fff;
+    	color: #000;
+	}
+	.cke_dialog_ui_input_select select {
+    	background-color:initial !important;
+	}
+	/* END TEXT EDITOR SECTION 4 */
+/* End text editor modifications */
+
+    h1.pgTitle {
+        background-color: #000;
+    }
+    #adminSubMenu, 
+    #adminSubMenu > li > span, 
+    #adminSubMenu > li > ul {
+        background-color: #2b2b2b;
+    }
+    #pgControlsTray {
+       background-color: #2b2b2b;
+    }
+    img[src="/sysfiles/member/family/google-maps.gif"] {
+        content:url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/secure-google-maps2.png);
+    }
+    .responsiveFrm {
+        background-color: transparent !important;
+        color: #fff !important;
+    }
+    input[type=text] {
+        color: #000 !important;
+    }
+	.ui-state-default, 
+    .ui-widget-content .ui-state-default, 
+    .ui-widget-header .ui-state-default {
+    	background-color: #292929 !important;
+        border: 1px solid #5e5e5e;
+        border-right: 2px solid #5e5e5e !important;
+	}
+	.ui-state-active, 
+    .ui-widget-content .ui-state-active, 
+    .ui-widget-header .ui-state-active {
+    	background-color: #363636 !important;
+        border-color: #666;
+	}
+    .ui-button, 
+    html .ui-button.ui-state-disabled:hover, 
+    html .ui-button.ui-state-disabled:active {
+    	border: 1px solid #5e5e5e;
+	}
+	li a {
+    	color:#fff;
+	}
+	.subHead td {
+    	background-color:#4d4d4d;
+	}
+	table.sortable td.editable {
+    	background-color: #434343;
+    	border-left: 1px solid #404040;
+    	border-right: 1px solid #404040;
+	}
+	table.sortable {
+    	border-color:#404040;
+	}
+	table input[type="text"] {
+    	color:#fff !important;
+	}
+	.responsiveFrm select, 
+    .responsiveFrm textarea, 
+    .responsiveFrm input:not([type="submit"]):not([type="reset"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]):not([type="image"]):not([type=”text]) {
+    	border: 1px solid #fff3 !important;
+	}
+	.sortable select {
+    	color: var(--color1);
+	}
+	.sortable input {
+    	color:#fff;
+	}
+	#adminTopMenu li, 
+    #adminFooter li {
+    	background-color: #454545;
+	}
+	#idBar, 
+    #adminSubMenu, 
+    #adminSubMenu > li > span, 
+    #adminSubMenu > li > ul {
+    	background-color: #626262;
+	}
+	#adminSubMenu li.sel > span {
+    	color:#fff!important;
+	}
+	#adminSubMenu ul ul, 
+    h1.pgTitle {
+    	background-color: #393939;
+	}
+	#adminSubMenu li span {
+    	color: #a8a8a8;
+	}
+	#adminSubMenu ul ul, 
+    #adminSubMenu ul ul > li {
+    	border-bottom: 1px solid #757575;
+	}
+	.ui-tabs .ui-tabs-panel {
+        background: #000;
+    	border: 1px solid #5e5e5e;
+	}
+	#groupSiteLink span.mobileHide {
+    	background-color: var(--color2);
+	}
+	.hcContent {
+    	background-color: #686868;
+	}
+    .tabContTab.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active a {
+    	color:#fff !important;
+	}
+    div div div div div h1.pgTitle, 
+    div div div div div div#pgControlsTray {
+	    background-color: #000 !important;
+    }
+    .subHead.epochExpanded td {
+	    background-color: #2d2d2d !important;
+    }
+    tr.totalRow td {
+	    background-color: #424242 !important;
+    }
+    input[name="keywords"] {
+    	width: 55% !important;
+    }
+    #pgControlsTray label {
+       color: #fff;
+    }
+    form[enctype="multipart/form-data"] {
+        background-color:#000;
+        color:#fff;
+    }
+    #idBar {
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items:end;
+    }
+    .memberAdminPage #adminTopMenu > li.memberOnly {
+        background-color: var(--color2);
+    }
+    #idBar::before {
+        content:"";
+        background-image: url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/SCA-logo%2Bname24-white.png);
+        background-size:contain;
+        background-repeat:no-repeat;
+        display:inline-block;
+        height:60px;
+        width:300px;
+    }
+    #groupName {
+        display:none;
+    }

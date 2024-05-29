@@ -1,0 +1,710 @@
+:root {
+  	  --main-bg-color:#041427;
+  	  --detail-bg: #133051;
+  	  --button: #0079ff;
+      --colored-text: #baccff;
+      --dark-border: #171f5e;
+      --editor-border: #75bad9;
+      --editor-border2: #69b0ff;
+      --editor-button: #1e4d83;
+	}
+	div.equal {
+  	 	background-color: var(--main-bg-color);
+	}
+	body, 
+    .wid, 
+    #pgControlsTray label {
+    	background-color: var(--main-bg-color) !important;
+    	color: var(--colored-text);
+	}
+
+/* Begin Login box stuff */
+	#loginBox,
+    #loginBox a {
+    	background-color: #1e4d83 !important;
+    	color:#fff;
+    	border-radius: 15px !important;
+	}
+	/* Begin buttons */
+	.wid button, 
+    #loginForm input[type=submit],
+    a.aBtn {
+        color:#fff;
+    	background-color: var(--button);
+    	border-radius: 5px !important;
+    	border: solid 1px #a8cdf7 !important;
+	}
+    footer {
+    	background-color: var(--detail-bg);
+    	border-top-right-radius: 20px;
+    	border-top-left-radius: 20px;
+	}
+    .footerTemplate2 .footerTemplateHost,
+    #loginBar {
+        display:none;
+    }
+    #footer .footerTemplate {
+        padding-bottom:20px;
+    }
+    .footerTemplate2 .footerTemplateFeature, 
+    .footerTemplate2 .footerTemplateLinks {
+        border-left-color:#436c9b;
+    }
+	input[type=submit], 
+    input[type=reset], 
+    input[type=button], 
+    button {
+    	background-color: var(--button);
+	}
+
+	/* End buttons */
+	#loginArrow {
+    	transform: translate(-15px,2px);
+        z-index: -1;
+    }
+
+/* End login box */
+
+	.wid h3, 
+    .widgetContainer .tabContainer.ui-tabs .ui-tabs-nav {
+    	background-color: #171f5e;
+	}
+    
+	.ui-tabs-nav.ui-corner-all.ui-widget-header li:first-child{
+    	border-radius:5px 0px 0px 5px;
+	}
+    
+	.ui-tabs-nav.ui-corner-all.ui-widget-header li:last-child{
+    	border-radius:0px 5px 5px 0px;
+	}
+
+
+/* Begin images */
+	img {
+    	border-radius: 12px;
+    	border-color: var(--detail-bg) !important;
+    	border-style: none;
+	}
+	#slider-wrapper img {
+    	border-radius: 0px 0px 20px 20px;
+	}
+	#logo img {
+    	content:url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/SCA-logo%2Bname24-white.png);
+    	width:500px;
+    	height:auto;
+	}
+    img[src="/sysfiles/site_uploads/footer/logoimg_footer3724.png"] {
+        content:url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/SCA-logo%2Bname24-white.png);
+        height:60px;
+    }
+	#logoblock {
+    	background-color: var(--main-bg-color);
+	}
+	img[src="/sysfiles/member/family/google-maps.gif"] {
+    	content:url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/secure-google-maps2.png);
+	}
+	#map img {
+    	/* This prevents the sections of the map (when you click on Secure Google Maps) from being rounded. */
+    	border-radius: 0px;
+	}
+	img.ui-datepicker-trigger {
+    	Border-radius:0px;
+	}
+/* End images */
+    .header h1 {
+        font-weight:bold;
+        text-shadow: 1px 1px 3px #000;
+    }
+	a, 
+    .ui-widget-content a {
+        color:#fff;
+	}
+	.alphaBrowse, 
+    .alphaBrowse a {
+    	color: #000;
+    	background-color: #75a1d9;
+    	border-radius: 5px;
+	}
+	.alphaBrowse a.sel {
+    	background-color: #abd0ff;
+	}
+	.req:before,
+	#iformPgContent [style="color:#FF0000"] {
+    	color:#0ff!important;
+	}
+	input:not([type=submit]):not([type=reset]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):not([type=image]),
+	textarea,
+	#loginForm input {
+    	background-color: #88b8c7!important;
+	}
+	input::placeholder {
+    	color:#212342c7;
+	}
+	.subHead.groupExpanded td.expandDate:before,
+    .expandEpoch.groupExpanded:before {
+    	color: #0a2d5b;
+	}
+	.subHead td.expandDate, 
+    .expandEpoch {
+	/*This thing is for where it says assignments!*/
+    	color: #3f3f3f;
+    	border-radius: 5px;
+	}
+	* {
+    	scrollbar-color: #26266a #8c8ca8;
+	}
+	.wid h3, 
+    .widgetContainer .tabContainer.ui-tabs .ui-tabs-nav {
+    	background-color: #0a2d5b;
+    	border-radius: 5px;
+	}
+	.widgetContainer .itmCategory {
+    	font-weight:bold;
+	}
+	/* Calendar colors*/
+	td[style="background-color:#ffc;"] {
+   	 background-color:#38537d !important
+	}
+   
+	td[style="background-color:#eee;"] {
+  	 	background-color:#171d3c!important;
+	}
+   
+	td[style="background-color:#fff;"] {
+  	  background-color:#212a57!important;
+	}
+	.cal td.calendarEmpty {
+	background-color: #4e4f6e !important;
+	}
+    .cal.sortable > tbody > tr > td {
+        border-color: #767d9e;
+    }
+	table.sortable.cal td {
+  	color: #fff;
+	}
+    table.cal td a {
+        color:var(--colored-text);
+    }
+	#topNav>ul {
+    	border-left: none;
+	}    
+	.preheadernav {
+    	background-color: #031d3c;
+        min-height:initial;
+	}
+	#adminSubMenu ul ul, 
+    h1.pgTitle {
+   	 background-color: #181839;
+	}
+    #adminSubMenu li span {
+        color:#78adff;
+    }
+    #adminSubMenu li.sel > span, 
+    .ui-state-active a, 
+    .ui-widget-content a.defColor, 
+    .hcIcon, 
+    #skip2content {
+        color: #fff !important;
+    }
+    #pgControlsTray, 
+    #pgControlsTray a {
+   	 color: #fff;
+	}
+    a i.fa, 
+    a i.fas, 
+    a i.fa-solid {
+        color: #9fabf0;
+	}
+    #pgControlsTray a {
+   	 background-color: #030c7e;
+		 border: 1px solid #6162bb;
+		 border-radius: 50px;
+ 		 padding: 3px 10px;
+	}
+    #adminTopMenu li.sel, 
+    #adminTrayMenu, 
+    td.blank {
+        background-color: #173051;
+	}
+    #idBar, 
+    #adminSubMenu, 
+    #adminSubMenu>li>span, 
+    #adminSubMenu>li>ul {
+        background-color: #0b023a;
+	}
+    #idBar {
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items:end;
+    }
+    #idBar::before {
+        content:"";
+        background-image: url(https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/SCA-logo%2Bname24-white.png);
+        background-size:contain;
+        background-repeat:no-repeat;
+        display:inline-block;
+        height:60px;
+        width:300px;
+    }
+    #groupName {
+        display:none;
+    }
+    #topNav, 
+    #topNav ul, 
+    #topNav-mobile, 
+    #menu-mobile div {
+    	background-color: #0a3363;
+    	border: 2px solid #154174;
+        border-top-color: #194d8b;
+	}
+    .preheadernav {
+   	 background-color: #031d3c;
+	}
+	.sortable > thead > tr > th {
+    	color: #fff;
+    	border: 1px solid #555698;
+    	border-bottom-color: #272758;
+	}
+
+	/* These next two rules are to remove a little line that is revealed by rounded borders in the Assignments feed. */
+	.widgetContainer h4 + .epoch1 {
+    	border-top: none;
+	}
+	.widgetContainer .epoch1 {
+    	border-top: 1px solid #ccc;
+    	border-bottom: none;
+	}
+    .wid h4 {
+        border-top-color:#e9e9e9;
+    }
+    #pgControlsTray {
+    	Background-color: transparent;
+	}
+    .listing h4 {
+    	background-color: #181839;
+	}
+	.boxShaded, 
+    .helpBox {
+    	background-color: #132742;
+	}
+    #frm .ui-tabs .ui-tabs-panel,
+    .contentBox, 
+    .helpBox {
+        border-color: #a3b3e4;
+    }
+    select,
+    .responsiveFrm select {
+    	background-color: #0b1e44;
+    	border: 1px solid #4c4ba4 !important;
+    	color: #fff;
+	}
+    .subHead.groupNotExpanded td.expandDate::before, 
+    .expandEpoch.groupNotExpanded::before {
+    	color: #0a2d5b;
+	}
+
+/* Begin text editor modifications */
+    #cke_assignmentDesc,
+    #cke_description {
+        border-color: #4853a9;
+    }
+	/* BEGIN TEXT EDITOR SECTION 1: Buttons and features visible on the main part of the text editor */
+	.cke_button_icon {
+    	/* To change the icons from light mode to dark mode */
+    	filter: invert(1) brightness(2);
+	}
+	.cke_reset_all,
+	.cke_reset_all * {
+    	color: #fff;
+	}
+	.cke_top {
+    	/* banner which all of the buttons are on */
+    	border-bottom: 1px solid var(--editor-border);
+    	background: #002556;
+	}
+	a.cke_button,
+	.cke_toolgroup {
+    	background-color: var(--editor-button);
+	}
+	a.cke_button_off:hover,
+	a.cke_button_off:focus,
+	a.cke_button_off:active,
+	.cke_combo_off a.cke_combo_button:hover {
+    	background: var(--editor-border); 
+    	border-color:var(--editor-button);
+	}
+	a.cke_button_on,
+	.cke_combo_off a.cke_combo_button:active {
+    	background: var(--editor-button); 
+	}
+	a.cke_button_on:hover,
+	a.cke_button_on:focus,
+	a.cke_button_on:active {
+    	background: var(--editor-button); 
+	}
+    	/* Begin subsection for the four buttons along the bottom-left */
+	.cke_toolgroup {
+    	border-color: var(--editor-border);
+    	border-bottom-color: var(--editor-border);
+	}
+	.cke_combo_button {
+    	border-top: 1px solid var(--editor-border);
+    	border-bottom: 1px solid var(--editor-border);
+    	background: var(--editor-button);
+	}
+	.cke_combo_on a.cke_combo_button {
+    	background-color:var(--button);
+    	border-top-color:var(--editor-border);
+	}
+	.cke_combo_on a.cke_combo_button:hover,
+	.cke_combo_on a.cke_combo_button:focus {
+    	background-color:var(--editor-border);
+    	border-top-color:var(--dark-border);
+	}
+	.cke_combo_text {
+    	color: #fff;
+    	text-shadow: 0 1px 0 #0008;
+	}
+    	/* End subsection for the four buttons along the bottom-left */
+	.cke_toolbar_separator {
+    	background-color: var(--editor-button);
+	}
+	.cke_button_arrow,
+    .cke_combo_arrow {
+    	/* This is for the little drop-down arrow on some of the buttons */
+    	border-top-color: var(--editor-border);
+	}    
+	/* END TEXT EDITOR SECTION 1*/
+    
+	/* BEGIN TEXT EDITOR SECTION 2: The bottom part */
+	body.cke_editable {
+    	/* The field where you type */
+    	background-color: #fff !important; 
+    	color: #000;
+	}
+	.cke_editable a {
+    	/* Necessary to make links look like a normal color */
+    	color: #0782c1;
+	}
+	.cke_bottom {
+    	/* Strip along the bottom */
+    	border-top: 1px solid #f4f4f4;
+    	background: var(--editor-button);
+	}
+	.cke_path_item,
+	.cke_path_empty {
+    	color: #fff;
+    	text-shadow: 0 1px 0 #0008;
+	}
+	.cke_path_item {
+    	border-right: 1px solid #000;
+	}
+	.cke_resizer {
+    	/* Triangle in the bottom-right corner of the editor */
+    	border-color: transparent #69aaff transparent transparent;
+	}
+	a.cke_path_item:hover,
+	a.cke_path_item:focus,
+	a.cke_path_item:active {
+    	background-color: #a8cdf7;
+    	color: #000;
+    	text-shadow: 0 1px 0 #0008;
+	}
+	/* END TEXT EDITOR SECTION 2 */
+    
+	/* BEGIN TEXT EDITOR SECTION 3: The drop-down menus which are actually pop-up boxes */
+	.cke_panel {
+    	border: 1px solid var(--dark-border);
+    	border-bottom-color: #111642;
+	}
+	.cke_panel_block {
+    	background-color:#387cc8;
+    	color:#fff;
+	}
+    	/* Begin subsection for four "select" buttons */
+	.cke_panel_block > h1 {
+    	background-color:var(--editor-button);
+    	color:#fff;
+    	border-bottom: 1px solid var(--dark-border);
+	}
+	.cke_panel_block ul li a {
+    	border-color:transparent;
+	}
+    .cke_panel_grouptitle {
+        text-shadow:0 1px 0 #000;
+    }
+	.cke_panel_listItem a:hover,
+	.cke_panel_listItem a:focus,
+	.cke_panel_listItem a:active {
+    	border-color: var(--editor-border2);
+    	background-color: #5292d9;
+	}
+	.cke_panel_listItem [title="Special Container"] div,
+	.cke_panel_listItem [title="Marker"] {
+    	color:#000 !important;
+	}
+    .cke_panel_listItem.cke_selected a {
+        border-color: var(--editor-border2);
+    	background-color: #5da6f7;
+    }
+    	/* End subsection for four "select" buttons */
+    
+    	/* Begin subsection for other drop-down boxes */
+    
+	.cke_menubutton_label {
+    	/* This rule and the next few are most noticeable in the spellcheck menu */
+    	background-color: var(--editor-button);
+	}
+	a.cke_menubutton:hover,
+	a.cke_menubutton:focus,
+	a.cke_menubutton:active {
+    	background-color: #2b63a4;
+	}
+	.cke_menubutton_icon {
+    	background-color: var(--editor-button);
+        opacity: 0.90;
+	}
+	.cke_menubutton:hover,
+	.cke_menubutton:focus,
+	.cke_menubutton:active {
+    	background-color: #3107ca; 
+	}
+    a.cke_menubutton:hover .cke_menubutton_label,
+	a.cke_menubutton:focus .cke_menubutton_label,
+	a.cke_menubutton:active .cke_menubutton_label {
+    	background-color: #5184bf;;
+	}
+    .cke_menubutton:hover .cke_menubutton_icon,
+    .cke_menubutton:focus .cke_menubutton_icon,
+    .cke_menubutton:active .cke_menubutton_icon {
+        background-color: #6693c7;
+    }
+	.cke_menuseparator {
+    	background-color: #5481f5;
+    	opacity: 1;
+	}
+	.cke_colorblock a {
+    	color:#fff;
+	}
+	a.cke_colorbox {
+    	border-color:transparent;
+	}
+	#cke_7_colorBox {
+    	background-color:#fff;
+	}
+	a.cke_colorbox:hover,
+	a.cke_colorbox:focus,
+	a.cke_colorbox:active,
+    a.cke_colorauto:hover,
+	a.cke_colormore:hover,
+	a.cke_colorauto:focus,
+	a.cke_colormore:focus,
+	a.cke_colorauto:active,
+	a.cke_colormore:active{
+    	border: var(--button) 1px solid;
+    	background-color: #ffffff54;
+	}
+	a.cke_colorauto,
+	a.cke_colormore {
+    	border-color:var(--editor-border);
+	}
+    	/* End subsection for other drop-down boxes */
+	/* END TEXT EDITOR SECTION 3 */
+    
+	/* BEGIN TEXT EDITOR SECTION 4: Fixing the boxes like Special Characters and Images which we're too lazy to format */
+	input:not([type="submit"]):not([type="reset"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]):not([type="image"]) {
+    	width:100%;
+	}
+	.cke_dialog_body {
+    	resize:none;
+	}
+	.cke_dialog_body .cke_resizer {
+    	display:none;
+	}
+	[aria-labelledby^="cke_dialog_title_"] * {
+    	/* For the image uploads, special characters, iframe, emojis, etc */
+    	color:#000;
+	}
+	.cke_dialog_contents input:not([type="submit"]):not([type="reset"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]):not([type="image"]) {
+    	background-color: #fff !important;
+	}
+	.cke_reset_all.cke_1.cke_editor_description_dialog .cke_dialog.cke_browser_gecko.cke_ltr .cke_dialog_body .cke_dialog_contents .cke_dialog_contents_body .cke_dialog_ui_vbox_child .cke_dialog_ui_hbox .cke_dialog_ui_hbox_first .cke_dialog_ui_vbox input[type="text"] {
+    	/* This absolute monster of a selector is to set the text input widths in the image upload box, which are too wide by default. */
+    	width:50px;
+	}
+	form[enctype="multipart/form-data"] {
+    	background-color: transparent;
+    	border-bottom: 5px solid #fff;
+    	color: var(--colored-text);
+	}
+	/* END TEXT EDITOR SECTION 4 */
+/* End text editor modifications */
+	input:not([type=submit]):not([type=reset]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):not([type=image]), 
+    textarea{
+    	background-color: #ffffff !important;
+	}
+    input[step=".01"] {
+        appearance: textfield;
+        text-align:right;
+        padding-right:8px !important;
+    }
+    
+    /* Begin tables */
+    td a {
+    	color: var(--colored-text);
+	}
+    .sortable > thead > tr > th {
+    	background-color: #0f1f4f;
+	}
+    .subHead.epochExpanded td {
+        background-color: #68728d;
+    }
+    .subHead td {
+        background-color: #9ba4bb;
+    }
+    table.sortable > tbody > tr:nth-child(2n+1), 
+    tr.odd td, 
+    tr.odd th {
+        background-color: #444e68;
+    }
+    table.sortable > tbody > tr:nth-child(2n), 
+    tr.even td, 
+    tr.even th {
+        background-color: #363e57;
+    }
+    table.sortable > tbody > tr:not(.totalRow):hover {
+        background-color: #5c6885;
+    }
+    table.sortable td.editable {
+        background-color: #5f6a88;
+        border-left-color: #67759e;
+        border-right-color: #67719e;
+    }
+    table.sortable {
+        border-color: #7887bd;
+    }
+    .sortable > tbody > tr > td {
+        border-top-color:#67709e;
+    }
+    .sortable > tbody > tr > td:last-child {
+        border-right-color: #67709e;
+    }
+    table.sortable td {
+    	color: #fff;
+	}
+    .sortable span[style="color:#666;"] {
+        color: #aaa !important;
+    }
+    .noteEdit.noteReadonly {
+        color: #b9d1ff;
+    }
+    .sortable .expandEpoch .fa-plus-square {
+        color:#eee;
+    }
+    table.sortable select {
+        padding-left: 5px;
+        padding-right: 2px;
+    }
+    table a.defColor i {
+        color: #0369fd !important;
+    }
+    /* End tables */
+    
+    /* Begin special rules for forum */
+    
+    tr[bgcolor="#e6e6e6"] {
+        background-color: #37416b;
+    }
+    tr[bgcolor="#f0f0f0"] {
+        background-color: #293152;
+    }
+    tr p[style="margin-bottom:0; color:#666;"] {
+        color:#fff !important;
+    }
+    td,
+    td p {
+        color:#fff;
+    }
+     /* End special rules for forum */
+    .ui-resizable select {
+    	background-color: initial;
+        color:initial;
+	}
+	form[enctype="multipart/form-data"] {
+    	background-color: transparent;
+    	border-bottom: none;
+	}
+	#adminTopMenu li {
+    	border-left:none;
+	}
+    h1.pgTitle,
+    #adminSubMenu ul ul {
+        background-color: #0f1c52;
+    }
+	.pagecontent.clearfix:has(#widContentRowOrient) > h1.pgTitle {
+        background-color:transparent;
+    }
+    #adminSubMenu ul ul, 
+    #adminSubMenu ul ul > li {
+        border-bottom-color:#5774b9;
+    }
+	.nav-holder {
+    	background-color: #1f2f4f;
+	}
+	.nav-tree {
+    	background-color: #11193b;
+	}
+	.ad.sliver {
+    	background-color: #030a35;
+	}
+	a.noLinky {
+    	color: #acb3d5;
+    	text-decoration: none;
+	}
+    .ui-tabs .ui-tabs-panel {
+        background: #061f40;
+        border: 1px solid #2f396f;
+        color:#fff;
+    }
+    .responsiveFrm .ui-tabs-nav.ui-corner-all.ui-widget-header li {
+        background-color: #0a2d5b !important;
+        border-color:#384382 !important;
+    }
+    .responsiveFrm .ui-tabs-nav.ui-corner-all.ui-widget-header li:not(:last-child) {
+        border-right-color:transparent !important;
+    }
+    .responsiveFrm .ui-widget-content li.ui-state-active.ui-tabs-tab, 
+    .responsiveFrm .ui-widget-header li.ui-state-active.ui-tabs-tab {
+        background-color: #1f4f8e !important;
+    }
+    .responsiveFrm .ui-tabs-nav.ui-corner-all.ui-widget-header li a {
+        color:#fff !important;
+    }
+    .responsiveFrm .ui-tabs-nav.ui-corner-all.ui-widget-header li:first-child {
+        border-radius: 5px 0px 0px 0px;
+    }
+    .responsiveFrm .ui-tabs-nav.ui-corner-all.ui-widget-header li:last-child {
+        border-radius: 0px 5px 0px 0px;   
+    }
+    .responsiveFrm .ui-tabs-nav.ui-corner-all.ui-widget-header li:last-child:first-child {
+        border-radius: 5px 5px 0px 0px;
+    }
+    .ui-widget-header .ui-state-active a {
+        color:#000 !important;
+    }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+        padding-bottom:0px;
+    }
+    #tabs .ui-tabs-nav.ui-corner-all.ui-widget-header li:first-child {
+        border-bottom-left-radius: 0px;
+    }
+    #tabs .ui-tabs-nav.ui-corner-all.ui-widget-header li:last-child {
+        border-bottom-right-radius: 0px;
+    }
+    li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab i.fa-square-check {
+        color:#9fabf0;
+    }
+    .tabContainer li.ui-state-default a {
+        color: #fff !important;
+    }
