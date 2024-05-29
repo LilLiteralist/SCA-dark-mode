@@ -83,7 +83,7 @@
     .alphaBrowse a.sel{
         background-color: var(--color2);
     }
-    i.fa,
+    i.fa-minus-square,
     a i.fa, 
     a i.fas, 
     a i.fa-solid {
