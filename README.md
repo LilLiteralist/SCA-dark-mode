@@ -5,7 +5,8 @@ Choose one of the following browser extensions to use for the theme.
 ### Stylus (recommended)
 [For Chromium-based browsers](https://chromewebstore.google.com/detail/clngdbkpkpeebahjckkjfobafhncgmne) (Chrome, Edge, Opera, Brave), [For Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [For Firefox on Android](https://addons.mozilla.org/en-US/android/addon/styl-us/)
 
-This is the easiest installation method.
+This is the easiest installation method. For Edge, you may need to go to Manage Extensions and turn on Developer mode.
+
 1. Add Stylus to your browser.
 2. Choose which style you wish to use. Scroll down below the preview image and click Install.
    * [Abby and Anika's style](https://userstyles.world/style/16512/abby-and-anikas-theme)
@@ -26,6 +27,7 @@ I think you might be able to get this working on mobile devices, but I'm not sur
 
 ### Stylebot
 [For Chromium-based browsers](https://chromewebstore.google.com/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) (Chrome, Edge, Opera, Brave), [For Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/)
+
 1. Add Stylebot to your browser.
 2. Go to the [SCA website](https://www.sofiachristianacademy.org/) and open the Stylebot extension. Once the menu opens, click Open Stylebot.
 3. At the bottom of the menu, click on Code.
