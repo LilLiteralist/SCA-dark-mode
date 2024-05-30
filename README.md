@@ -1,5 +1,8 @@
 These styles were created by SCA's 7th grade Media Technology class during Q4 of the 2023–24 school year.
 
+* [Abby and Anika's style](https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/Abby%20and%20Anika%20preview.png)
+* [Gideon and Mirella's style](https://raw.githubusercontent.com/LilLiteralist/SCA-dark-mode/main/Gideon%20and%20Mirella%20Preview.png)
+
 # Installation Procedure
 Choose one of the following browser extensions to use for the theme.
 ### Stylus (recommended)
